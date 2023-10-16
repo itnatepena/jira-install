@@ -30,8 +30,11 @@ This project demonstrates how to set up Atlassian Jira on an Azure virtual machi
 ![image](https://github.com/itnatepena/jira-install/assets/147539410/305d6424-3e98-451a-a8f1-23ac6d4e4dea)
 
 3. Allow inbound IPv4 traffic for VM2 to access Jira.
+
 ![image](https://github.com/itnatepena/jira-install/assets/147539410/ce24b8f9-e0d2-432d-8940-5c40947b817a)
-<br> I've also added access to all of the local network computers that will be on 10.0.0.0/24.
+
+<br>
+ I've also added access to all of the local network computers that will be on 10.0.0.0/24.
 
 
 ## Step 3: Create VM2 and Test Connectivity
@@ -80,10 +83,15 @@ You may need to create an account, or if you have one already, you need to find 
 
 ## Step 6: Access To-Do List from VM2
 
-1. On VM2, use a web browser to access Jira on VM1 via its public IP or hostname.
-   ![image](https://github.com/itnatepena/jira-install/assets/147539410/e3a7002a-892c-45b5-b0bc-25e80763c9af)
+1. On VM2, use a web browser to access Jira that is located on VM1s network via its public IP or hostname.
+
+Here I used the Private IP of VM1 followed by:8080.
+<br>
+20.150.193.50:8080
+
+![image](https://github.com/itnatepena/jira-install/assets/147539410/e3a7002a-892c-45b5-b0bc-25e80763c9af)
 Here I have accessed Jira which is located on VM1 from VM2(or VM3 in my case) 
-2. Log in to Jira on VM1.
+2. Log in to Jira from your second VM
 3. View and manage the shared to-do list.
 ![image](https://github.com/itnatepena/jira-install/assets/147539410/fe781c44-54a8-4c12-8433-00fc80a4cd9f)
 
