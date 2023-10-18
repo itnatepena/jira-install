@@ -91,6 +91,8 @@ Here I used the Private IP of VM1 followed by:8080.
 
 ![image](https://github.com/itnatepena/jira-install/assets/147539410/e3a7002a-892c-45b5-b0bc-25e80763c9af)
 Here I have accessed Jira which is located on VM1 from VM2(or VM3 in my case) 
+<br>
+<br>
 2. Log in to Jira from your second VM
 3. View and manage the shared to-do list.
 ![image](https://github.com/itnatepena/jira-install/assets/147539410/fe781c44-54a8-4c12-8433-00fc80a4cd9f)
